@@ -27,6 +27,10 @@ export const DoctorContainer = styled.div`
   margin: 1rem;
   padding: 1rem;
   border-radius: 20px;
+  @media (max-width:425px )
+  {
+   width: 80%;
+  }
 `;
 
 export const DoctorHeading = styled.h1`
@@ -56,6 +60,9 @@ export const DrugContainer = styled.div`
   margin: 1rem;
   padding: 1rem;
   border-radius: 20px;
+  @media (max-width:425px ) {
+    width: 80%;
+    }
 `;
 
 export const DrugHeading = styled.h1`
@@ -71,6 +78,10 @@ export const DrugContent = styled.div`
 
 export const ContainerWrapper = styled.div`
   display: flex;
+  @media (max-width:425px )
+  {
+    flex-wrap: wrap;
+  }
 `;
 
 export const ButtonWrapper = styled.div`
@@ -80,6 +91,9 @@ export const ButtonWrapper = styled.div`
   margin: 0 auto;
   @media (max-width: 768px) {
     width: 90%;
+  }
+  @media (max-width: 425px) {
+    width: 100%;
   }
 `;
 

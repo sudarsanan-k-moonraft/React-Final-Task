@@ -54,6 +54,7 @@ import { DrugModel } from '../../../modals/drugModel';
 //Functional Component for SearchDrugPage
 
 const SearchDrugPage: React.FC = (): JSX.Element => {
+  
   //DisplayItems function to display the Items
 
   const [drugData, setDrugData] = useState<DrugModel[] | null>(null);

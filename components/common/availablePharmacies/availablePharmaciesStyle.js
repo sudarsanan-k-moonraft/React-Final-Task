@@ -6,6 +6,9 @@ padding:1rem;
 &:hover{
     border-left: 3px solid blue;
 }
+@media (max-width:425px ){
+    padding: 8px;
+}
 `
 
 export const PharmacyWrapper = styled.div`
@@ -16,6 +19,11 @@ box-shadow: 0.5px 0.5px 10px  black;
 @media (max-width: 768px) {
     width: 50%;
 }
+@media (max-width: 425px) {
+    width: 45%;
+    margin: 1rem;
+}
+
 `
 
 export const Heading= styled.h2`
@@ -49,6 +57,10 @@ margin-left: 10px;
 
 export const TypeContainer= styled.div`
 display: flex;
+@media (max-width:425px )
+{
+    flex-wrap: wrap;
+}
 
 `
 
@@ -60,7 +72,12 @@ width:25%;
 margin:10px;
 @media (max-width: 768px) {
     font-size: 9px;
-}`
+}
+@media (max-width: 425px) {
+    width: 23%;
+    font-size: 7px;
+}
+`
 
 export const DisplayWrapper=styled.div`
 width: 60%;
@@ -69,6 +86,10 @@ width: 60%;
 }
 
 margin-top: 1rem;
+@media (max-width:425px ){
+    width: 43%;
+}
+
 
 `
 export const WholePageWrapper=styled.div`

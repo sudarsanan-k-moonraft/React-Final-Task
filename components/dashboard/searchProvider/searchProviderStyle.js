@@ -14,9 +14,17 @@ width: 20px;
 height: 18px;
 padding: 1rem;
 margin-top: 7px;
+@media (max-width:425px ){
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+}
 `
 
 export const DrugHeading=styled.h3`
+@media (max-width:425px ){
+    font-size: 14px;
+}
 `
 
 export const CoverageWrapper=styled.div`
@@ -24,6 +32,9 @@ background-color:#1e4ea1;
 padding: 1rem;
 color:white;
 padding-bottom: 5rem;
+@media (max-width:435px ){
+    font-size: 14px;
+}
 `
 
 export const CoverageSubHeading=styled.p`
@@ -46,7 +57,18 @@ top:250px;
 right:90px;
 @media (max-width:768px) {
     right: 70px;
-}`
+}
+@media (max-width:425px ){
+    right: 20px;
+}
+@media (max-width:375px ){
+    right: 10px;
+}
+@media (max-width:320px ){
+    right: 10px;
+    top:270px;
+}
+`
 
 export const PinCodeWrapper=styled.div`
 display: flex;
@@ -61,9 +83,18 @@ export const LocationIcon=styled.img`
 width: 18px;
 height: 20px;
 margin: 1.5rem;
+@media (max-width:425px ){
+    width: 14px;
+    height: 15px;
+    margin: 1rem;
+}
 `
 
 export const PinCodeHeading=styled.h4`
+@media (max-width:425px) {
+    
+    font-size: 12px;
+}
 `
 
 export const PinInput=styled.input`
@@ -88,6 +119,11 @@ border-radius: 10px;
 @media (max-width:768px){
     width: 35%;
 }
+@media (max-width:768px){
+    width: 25%;
+    font-size: 14px;
+    padding: 10px;
+}
 `
 
 export const Information=styled.div`
@@ -95,6 +131,11 @@ position: absolute;
 top:460px;
 padding: 1rem;
 width: 80%;
+@media (max-width:425px ){
+    font-size: 14px;
+    margin-left: 1rem;
+}
+
 `
 
 export const TherapyInfo=styled.p`

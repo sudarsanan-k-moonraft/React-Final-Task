@@ -16,6 +16,9 @@ export const SearchWrapper = styled.div`
 `;
 export const Coverage = styled.p`
   font-size: 1rem;
+  @media (max-width:425px){
+    font-size: 12px;
+  }
 `;
 
 export const FirstWrapper = styled.div`
@@ -25,6 +28,10 @@ export const FirstWrapper = styled.div`
   padding: 1rem;
   @media (max-width: 768px) {
     width: 80%;
+  }
+  @media (max-width:425px){
+    font-size: 12px;
+    width: 90%;
   }
 `;
 export const PlanText = styled.div`
@@ -47,7 +54,10 @@ export const OptionTag = styled.option``;
 export const DrugSearchWrapper = styled.div``;
 export const BeginHeading = styled.p``;
 
-export const SearchHeading = styled.h2``;
+export const SearchHeading = styled.h2`
+@media (max-width:425px ){
+  font-size: 1rem;
+}`;
 
 
 
@@ -66,7 +76,11 @@ padding:1rem;
 border-radius:6px;
 @media (max-width: 768px) {
   width: 90%;
-}`
+}
+@media (max-width:425px ){
+  font-size: 12px;
+}
+`
 
 export const InputType = styled.div`
 display:flex;
@@ -96,7 +110,12 @@ background-color: rgb(33,101,219);
 padding: 1%;
 border-radius: 6px;
 border-color: rgb(33,101,219);
-color:white`
+color:white;
+@media (max-width:425px ){
+  font-size: 12px;
+  width: 60%;
+}
+`
 
 export const Blue = styled.p`
 background-color:red;`

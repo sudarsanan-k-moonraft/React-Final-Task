@@ -30,12 +30,20 @@ export const FirstWrapper = styled.div`
   @media (max-width: 768px){
      width: 80%;
   }
+  @media (max-width: 425px){
+     width: 90%;
+     font-size: 14px;
+  }
 `;
 export const PlanText = styled.div`
   margin-left: 1rem; ;
 `;
 export const SecondWrapper = styled.div`
   padding: 1rem;
+  @media (max-width: 425px){
+     width: 90%;
+     font-size: 14px;
+  }
 `;
 
 export const Plan = styled.div`
@@ -61,6 +69,7 @@ export const SearchHeading = styled.h2`
 export const SearchBar = styled.div`
   padding: 1rem;
   position: relative;
+
 `;
 export const SearchInput = styled.input`
   width: 90%;
@@ -78,6 +87,10 @@ export const SearchButton = styled.button`
   position: absolute;
   right: 11%;
   top: 25px;
+  @media (max-width: 425px) {
+    width: 80px;
+    right:12%;
+  }
 `;
 
 
@@ -104,6 +117,9 @@ export const DrugContainer = styled.div`
   @media (max-width:768) {
     padding: 1rem 1rem;
   }
+  @media (max-width:425px) {
+    padding: 1rem 1rem;
+  }
 `;
 
 export const DrugWrapper = styled.div`
@@ -113,6 +129,10 @@ export const DrugWrapper = styled.div`
   @media (max-width: 768px) {
     padding: 1rem;
     font-size: 12px;
+  }
+  @media (max-width: 425px) {
+    padding: 10px;
+    font-size: 10px;
   }
 `;
 
@@ -152,6 +172,9 @@ export const Inputs = styled.div`
     width:35%;
     padding: 2.5rem;
   }
+  @media (max-width:425px ) {
+    padding: 1rem;
+  }
 `
 
 export const AlertText = styled.p`
@@ -174,6 +197,9 @@ export const Count = styled.input`
   padding: 10px;
   border-radius: 0.5rem;
   color: blue;
+  @media (max-width:425px ) {
+    width: 80%;
+  }
 `;
 
 export const Select = styled.select`
@@ -188,6 +214,12 @@ export const Select = styled.select`
 export const ButtonContent = styled.div`
   display: flex;
   gap: 6px;
+  @media (max-width: 425px) {
+    width: 90%;
+    padding: 5px;
+    justify-content: space-between;
+
+   }
 `;
 
 export const Buttons = styled.button`
@@ -200,6 +232,11 @@ export const Buttons = styled.button`
   border-radius: 0.5rem;
   &:hover{
     border: 1px solid blue;
+  }
+  @media (max-width: 425px) {
+    
+   padding: 5px;
+   
   }
 `;
 
@@ -218,6 +255,10 @@ export const GenericLink = styled(Link)`
 
 export const Information = styled.div`
   padding-left: 4rem;
+ @media (max-width:425px ) {
+   font-size: 12px;
+   padding-left: 2rem;
+ }
 `;
 export const TherapyInfo = styled.p`
   width: 80%;

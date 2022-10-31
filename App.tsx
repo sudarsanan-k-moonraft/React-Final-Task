@@ -10,15 +10,13 @@ import DisplayPharmacy from './components/common/displayPharmacy/displayPharmacy
 function App() {
   return (
     <>
-      
       <Routes>
-        <Route path='' element={<FirstPage />}/>
+        <Route path="/React-Deploy" element={<FirstPage />} />
         <Route path="/SearchDrug" element={<SearchDrugPage />} />
         <Route path="/SearchPharmacy" element={<SearchPharmacyPage />} />
         <Route path="/SearchProvider" element={<SearchProviderPage />} />
         <Route path="/PharmacyContent" element={<DisplayPharmacy />} />
       </Routes>
-
     </>
   );
 }
